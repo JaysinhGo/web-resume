@@ -1,0 +1,40 @@
+{
+  "name": "webresume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaysinhGo/web-resume.git"
+  },
+  "author": "Jaysinh Gohil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaysinhGo/web-resume/issues"
+  },
+  "homepage": "https://github.com/JaysinhGo/web-resume#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "express-promise-router": "^3.0.3",
+    "handlebars": "^4.7.6",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/parser": "^7.9.6",
+    "@babel/preset-env": "^7.9.6"
+  }
+}
