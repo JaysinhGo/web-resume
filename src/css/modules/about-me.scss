@@ -1,0 +1,173 @@
+#about-me-box {
+  height: 0;
+  width: 0;
+  position: fixed;
+}
+.about-me-init {
+  max-width: 240px;
+  max-height: 240px;
+  left: 0px;
+  top: 0px;
+  background: #9100ff;
+  border-radius: 125px;
+  box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  opacity: 0.8;
+  position: absolute;
+}
+.about-me-birth-icon,
+.about-me-from-icon,
+.about-me-hobbies-icon,
+.about-me-quote-icon {
+  position: absolute;
+  margin: auto;
+  height: 0;
+  width: 0;
+  max-height: 40px;
+  max-width: 40px;
+  min-height: 0px;
+  min-width: 0px;
+  top: -110px;
+  left: 0%;
+  margin-left: -120px;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.about-me-birth-icon-style,
+.about-me-from-icon-style,
+.about-me-hobbies-icon-style,
+.about-me-quote-icon-style {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  fill: #ffffff;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.about-me-txt,
+.about-me-birth-date {
+  position: absolute;
+  max-width: 240px;
+  height: 30px;
+  top: -10px;
+  left: 0px;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 24px;
+  opacity: 0;
+}
+.about-me-birth-date {
+  width: 240px;
+  left: -120px;
+}
+.about-me-from {
+  position: absolute;
+  width: 240px;
+  height: 250px;
+  left: -120px;
+  top: -120px;
+  overflow: hidden;
+  opacity: 0;
+}
+.about-me-from-txt {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  position: absolute;
+  bottom: 30px;
+}
+.about-me-hobbies,
+.about-me-quote {
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  left: -120px;
+  top: -120px;
+  overflow: hidden;
+  opacity: 0;
+}
+.about-me-hobbies-txt {
+  position: relative;
+  margin: 0;
+  width: 240px;
+  height: 45px;
+  top: 90px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  font-size: 24px;
+}
+.about-me-quote {
+  position: absolute;
+  height: 120px;
+  width: 200px;
+  left: -85px;
+  top: -30px;
+  overflow: hidden;
+  opacity: 1;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0;
+}
+.about-me-quote-txt1 {
+  position: relative;
+  text-align: left;
+}
+.about-me-quote-txt2 {
+  text-align: start;
+  width: 90%;
+  margin-left: 10%;
+}
+.about-me-quote-txt3 {
+  text-align: left;
+}
+.about-me-planet-box {
+  position: relative;
+  width: 0px;
+  max-width: 280px;
+  height: 280px;
+  overflow: hidden;
+  left: -140px;
+  top: -140px;
+}
+.about-me-planet {
+  position: absolute;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  left: 10px;
+  top: 10px;
+  background-color: transparent;
+  box-shadow: 0px -5px 0 0px #ffffff;
+  opacity: 0.8;
+  transform: rotate(0deg);
+}
+.about-me-planet-sub-box {
+  position: relative;
+  width: 0px;
+  max-width: 280px;
+  height: 220px;
+  overflow: hidden;
+  left: -140px;
+  top: -260px;
+  margin-top: -280px;
+}
+.about-me-planet-sub {
+  position: absolute;
+  border-radius: 50%;
+  width: 260px;
+  height: 200px;
+  background-color: transparent;
+  left: 10px;
+  top: 10px;
+  box-shadow: 0px 5px 0px 0px #c33cc5;
+  opacity: 0.8;
+}

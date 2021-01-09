@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth !important;
+}
+.main-box {
+  height: 10000px;
+  overflow: hidden;
+  display: none;
+}
+.common-box {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}

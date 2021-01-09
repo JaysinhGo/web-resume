@@ -1,0 +1,77 @@
+#scroll-down-box {
+  width: 64px;
+  height: 64px;
+}
+.arrow {
+  display: block;
+  width: 64px;
+  height: 64px;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  margin: 0 0 3px 6px;
+  animation: mouse-scroll 1s infinite;
+}
+
+.arrow1 {
+  margin-top: calc(0% - 96px);
+  animation-delay: 0.1s;
+  animation-direction: alternate;
+}
+
+.arrow2 {
+  animation-delay: 0.2s;
+  animation-direction: alternate;
+}
+
+.arrow3 {
+  animation-delay: 0.3s;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.45;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@-moz-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

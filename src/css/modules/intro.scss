@@ -1,0 +1,62 @@
+#intro-box {
+  height: 0;
+  width: 0;
+  position: fixed;
+}
+.intro-circle,
+.intro-circle-text {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 0;
+  width: 0;
+  max-height: 200px;
+  max-width: 200px;
+  margin-left: -200px;
+  box-shadow: 24px 24px 32px 0 rgba(255, 255, 255, 0.3) inset,
+    -16px -16px 16px 0 rgba(0, 0, 0, 0.25) inset;
+  border-radius: 125px;
+  opacity: 0.6;
+}
+.intro-circle-text {
+  font-size: 30px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  background: none;
+  box-shadow: none;
+  margin-left: -100px;
+  opacity: 0;
+  z-index: 3;
+}
+.intro-circle-text-1 {
+  margin-top: -40px;
+}
+.intro-circle-text-2 {
+  margin-top: 0px;
+}
+.intro-circle-7 {
+  background: #ff0000;
+}
+.intro-circle-6 {
+  background: #ffa500;
+}
+.intro-circle-5 {
+  background: #ffff00;
+}
+.intro-circle-4 {
+  background: #008000;
+}
+.intro-circle-3 {
+  background: #0000ff;
+}
+.intro-circle-2 {
+  background: #4b0082;
+}
+.intro-circle-1 {
+  background: #ee82ee;
+}
